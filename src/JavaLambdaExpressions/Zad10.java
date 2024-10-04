@@ -11,7 +11,7 @@ public class Zad10 {
         String a = "Noob";
         String b = "Nobody";
 
-        BiFunction<String, String, String> concatenate = (str1, str2) -> str1+str2;
+        BiFunction<String, String, String> concatenate = (str1, str2) -> str1 + str2;
 
         System.out.println("Original strings: " + a + ", " + b);
         System.out.println("Concatenated strings: " + concatenate.apply(a, b));
